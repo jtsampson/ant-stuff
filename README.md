@@ -1,5 +1,5 @@
 # Ant Stuff 
-I use the `ant` build tool a lot like to keep useful examples around....
+I use the `ant` build tool and like to keep useful examples around....
 
 ## Color Output for Ant on Windows (64 bit)
 
