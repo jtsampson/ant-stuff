@@ -13,7 +13,7 @@ By recompiling the c code using the [MinWin](http://mingw-w64.org/doku.php) 64 b
 
 #### Install
 
-1. Copy the contents of `ant-winsi-color-64` to `%USERPROFILE%`
+1. Copy the contents of `ant-winsi-color-64` to `%HOME%`
 2. Open a new DOS Console and run `ant` from the project. You should see colors !!
 
 You can install this file wherever you want. Read the .bat file and `ant` manual for configuration.
@@ -21,6 +21,8 @@ You can install this file wherever you want. Read the .bat file and `ant` manual
 #### Configuration
 
 Just read the `ansi.color` file to define your colors. You can install this file wherever you want. Read the `antrc_pre.bat` file and `ant manual` for configuration.
+
+On Windows, the Ant wrapper batch-file invokes '%USERGOME%'\antrc_pre.bat at the start
 
 Have fun building with ant.
 
